@@ -1,0 +1,127 @@
+:root {
+  --text-color: #757575;
+  --link-color: #757575;
+  --backround-color: #f5f5f5;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+
+/* header */
+.logo {
+  font-size: 26px;
+  line-height: 1.2;
+  color: #000000;
+  font-weight: 700;
+}
+.logo > span {
+  color: #2196f3;
+}
+
+.site-nav {
+  list-style-type: none;
+}
+
+.site-nav .link {
+  font-size: 14px;
+  line-height: 1.14;
+  color: #000000;
+  font-weight: 500;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.list-contact {
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+}
+.list-contact .link {
+  color: var(--link-color);
+}
+.list-contact .link:hover,
+.list-contact .link:focus {
+  color: #2196f3;
+}
+/* header end */
+
+/* Main */
+
+/*  section-buttons */
+.list-button {
+  list-style-type: none;
+}
+
+.list-button > button {
+  background-color: #f5f4fa;
+  color: #000000;
+}
+.section-button .button:hover,
+.section-button .button:focus {
+  background-color: #2196f3;
+
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ffffff;
+  font-weight: 500;
+}
+/* buttons end */
+
+/* section-features */
+
+.section-features {
+  list-style-type: none;
+}
+
+.list .title {
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+  font-weight: 700;
+}
+.list .text {
+  color: var(--text-color);
+  font-size: 16px;
+
+  line-height: 1.9;
+}
+
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-link {
+  font-size: 26px;
+  line-height: 1.2;
+  color: #2196f3;
+  font-weight: 700;
+}
+.logo-link > span {
+  color: #ffffff;
+}
+
+.contact .link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.7;
+}
+.contact .link-contact {
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+}
+.contact .link-contact:hover,
+.contact .link-contact:focus {
+  color: #2196f3;
+}
