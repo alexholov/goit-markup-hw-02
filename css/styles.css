@@ -7,6 +7,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
+  
 }
 
 /* header */
@@ -15,6 +16,7 @@ body {
   line-height: 1.2;
   color: #000000;
   font-weight: 700;
+  text-decoration: none;
 }
 .logo > span {
   color: #2196f3;
@@ -29,6 +31,7 @@ body {
   line-height: 1.14;
   color: #000000;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -41,9 +44,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   font-weight: 500;
+  
 }
 .list-contact .link {
   color: var(--link-color);
+  text-decoration: none;
 }
 .list-contact .link:hover,
 .list-contact .link:focus {
@@ -103,18 +108,21 @@ body {
   line-height: 1.2;
   color: #2196f3;
   font-weight: 700;
+  text-decoration: none;
 }
 .logo-link > span {
   color: #ffffff;
 }
 
 .contact .link {
+  list-style-type: none;
   font-size: 14px;
   font-weight: 400;
   color: #ffffff;
   line-height: 1.7;
 }
 .contact .link-contact {
+  list-style-type: none;
   font-size: 14px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
@@ -123,4 +131,5 @@ body {
 .contact .link-contact:hover,
 .contact .link-contact:focus {
   color: #2196f3;
+  list-style-type: none;
 }
