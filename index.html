@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index.html</title>
+    <title>Студія</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -13,7 +19,7 @@
       <nav>
         <a class="logo" href="./index.html"> <span> Web</span>Studio</a>
         <ul class="site-nav">
-          <li><a class="link" href="./index.html">Студія</a></li>
+          <li><a class="link link-current" href="./index.html">Студія</a></li>
           <li><a class="link" href="./potfolio.html">Портфоліо</a></li>
           <li><a class="link" href="">Контакти</a></li>
         </ul>
@@ -29,12 +35,12 @@
       <!--Герой-->
       <section>
         <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+        <button class="button" type="button">Замовити послугу</button>
       </section>
       <!--2 блок-->
       <section>
-        <h2 hidden>Чому ми</h2>
-        <ul>
+        <h2 class="hidden">Чому ми</h2>
+        <ul class="list">
           <li>
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
             <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
@@ -56,11 +62,11 @@
       <!--3 блок (Чим ми займаемось)-->
       <section>
         <h2>Чим ми займаємося</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/img0.jpg"
-              alt="Руки печатают на клавиатуре"
+              alt="Руки друкують на клавіатурі"
               width="370"
               height="294"
             />
@@ -68,7 +74,7 @@
           <li>
             <img
               src="./images/img1.jpg"
-              alt="Телефон и компьютер в руках "
+              alt="Телефон і комп'ютер в руках "
               width="370"
               height="294"
             />
@@ -76,7 +82,7 @@
           <li>
             <img
               src="./images/img2.jpg"
-              alt="Фигура нарисованная на планшете"
+              alt="Фігура намальована на планшеті"
               width="370"
               height="294"
             />
@@ -86,24 +92,24 @@
       <!--4 Блок (Наша команда)-->
       <section>
         <h2>Наша команда</h2>
-        <ul>
+        <ul class="list">
           <li>
-            <img src="./images/img3.jpg" alt="Фотография работника" width="270" height="260" />
+            <img src="./images/img3.jpg" alt="Фотографія працівника" width="270" height="260" />
             <h3>Ігор Дем'яненко</h3>
             <p>Product Designer</p>
           </li>
           <li>
-            <img src="./images/img4.jpg" alt="Фотография работника" width="270" height="260" />
+            <img src="./images/img4.jpg" alt="Фотографія працівника" width="270" height="260" />
             <h3>Ольга Рєпіна</h3>
             <p>Frontend Developer</p>
           </li>
           <li>
-            <img src="./images/img5.jpg" alt="Фотография работника" width="270" height="260" />
+            <img src="./images/img5.jpg" alt="Фотографія працівника" width="270" height="260" />
             <h3>Микола Тарасов</h3>
             <p>Marketing</p>
           </li>
           <li>
-            <img src="./images/img6.jpg" alt="Фотография работника" width="270" height="260" />
+            <img src="./images/img6.jpg" alt="Фотографія працівника" width="270" height="260" />
             <h3>Михайло Єрмаков</h3>
             <p>UI Designer</p>
           </li>
@@ -112,7 +118,7 @@
     </main>
     <!--Footer-->
     <footer class="footer">
-      <a class="logo-link" href="./index.html">Web <span>Studio</span></a>
+      <a class="logo-link" href="./index.html">Web<span>Studio</span></a>
       <address>
         <ul class="contact">
           <li>

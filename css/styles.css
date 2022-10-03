@@ -1,12 +1,17 @@
 :root {
-  --text-color: #757575;
-  --link-color: #757575;
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --accent-color: #2196f3;
   --backround-color: #f5f5f5;
+  --btn-backround-color: #f5f4fa;
+  --secondary-backround-color: #2f303a;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #212121;
+  color: var(--main-color);
+  background-color: #ffffff;
+  font-size: 14px;
 }
 
 /* header */
@@ -28,14 +33,17 @@ body {
 .site-nav .link {
   font-size: 14px;
   line-height: 1.14;
-  color: #000000;
+  color: var(--main-color);
   font-weight: 500;
   text-decoration: none;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+.site-nav .link-current {
+  color: var(--accent-color);
 }
 
 .list-contact {
@@ -45,12 +53,12 @@ body {
   font-weight: 500;
 }
 .list-contact .link {
-  color: var(--link-color);
+  color: var(--secondary-color);
   text-decoration: none;
 }
 .list-contact .link:hover,
 .list-contact .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* header end */
 
@@ -61,18 +69,19 @@ body {
   list-style-type: none;
 }
 
-.list-button .button {
-  background-color: #f5f4fa;
-  color: #212121;
+.button {
+  background-color: var(--btn-backround-color);
+  color: var(--main-color);
+  font-style: normal;
   cursor: pointer;
   font-size: 16px;
   line-height: 1.6;
   font-weight: 500;
   letter-spacing: 0.03em;
 }
-.section .button:hover,
-.section .button:focus {
-  background-color: #2196f3;
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
   color: #ffffff;
 }
 /* buttons end */
@@ -86,12 +95,12 @@ body {
 .list .title {
   font-size: 18px;
   line-height: 2;
-  color: #212121;
+  color: var(--main-color);
   font-weight: 700;
   list-style-type: none;
 }
 .list .text {
-  color: var(--text-color);
+  color: var(--secondary-color);
   font-size: 16px;
   line-height: 1.9;
   font-weight: 400;
@@ -99,13 +108,13 @@ body {
 
 /* footer */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--secondary-backround-color);
 }
 
 .logo-link {
   font-size: 26px;
   line-height: 1.2;
-  color: #2196f3;
+  color: var(--accent-color);
   font-weight: 700;
   text-decoration: none;
 }
@@ -130,8 +139,9 @@ body {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   text-decoration: none;
+  font-style: normal;
 }
 .contact .link-contact:hover,
 .contact .link-contact:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
