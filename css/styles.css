@@ -87,6 +87,9 @@ body {
 /* buttons end */
 
 /* section-features */
+.hidden {
+  visibility: hidden;
+}
 
 .list {
   list-style-type: none;
