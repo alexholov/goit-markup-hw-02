@@ -12,10 +12,12 @@ body {
   color: var(--main-color);
   background-color: #ffffff;
   font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 /* header */
 .logo {
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.2;
   color: #000000;
@@ -70,6 +72,7 @@ body {
 }
 
 .button {
+  font-family: 'Roboto', sans-serif;
   background-color: var(--btn-backround-color);
   color: var(--main-color);
   font-style: normal;
@@ -89,6 +92,7 @@ body {
 /* section-features */
 .hidden {
   visibility: hidden;
+  font-size: 0;
 }
 
 .list {
@@ -115,6 +119,7 @@ body {
 }
 
 .logo-link {
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.2;
   color: var(--accent-color);
