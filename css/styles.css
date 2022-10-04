@@ -70,7 +70,10 @@ body {
 .list-button {
   list-style-type: none;
 }
-
+.btn {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
 .button {
   font-family: 'Roboto', sans-serif;
   background-color: var(--btn-backround-color);
